@@ -13,9 +13,25 @@ function App() {
   const [showCompany, setShowCompany] = useState(false);
   // ------------------------------//
 
+  //functions for navbar dropdowns -----//
+  function handleBurger() {
+    setShowBurger(!showBurger);
+    // console.log("hello");
+  }
+  function handleFeature() {
+    setShowFeatures(!showFeatures);
+    // console.log("Features");
+  }
+  function handleCompany() {
+    setShowCompany(!showCompany);
+    // console.log("Company");
+  } // ------------------------------//
   return (
-    <div className="App m-10">
+    <div className="App m-0 p-0">
       <Navbar
+        handleBurger={handleBurger}
+        handleFeature={handleFeature}
+        handleCompany={handleCompany}
         burger={showBurger}
         feature={showFeatures}
         company={showCompany}
