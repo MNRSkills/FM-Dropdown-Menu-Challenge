@@ -12,6 +12,10 @@ export default {
       almostBlack: "hsl(0, 0%, 8%)",
     },
     extend: {
+      backgroundImage: {
+        "hero-mobile": 'url("/src/assets/images/image-hero-mobile.png")',
+        "hero-desktop": 'url("/src/assets/images/image-hero-desktop.png")',
+      },
       fontFamily: {
         header: ["Epiloque"],
         content: ["Epiloque", 500],

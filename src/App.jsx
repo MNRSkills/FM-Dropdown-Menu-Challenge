@@ -4,6 +4,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./Components/nav";
+import Home from "./Components/Home";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -37,6 +38,10 @@ function App() {
         company={showCompany}
       />
       <h2 className="text-3xl underline font-header">Hello world</h2>
+      <Routes>
+        <Route path="/" element={<Home />} />
+
+      </Routes>
     </div>
   );
 }
