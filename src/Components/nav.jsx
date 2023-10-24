@@ -27,7 +27,7 @@ function Navbar(props) {
       </div>
 
       {props.burger === false ? (
-        <div className="p-4 text-3xl" onClick={() => props.handleBurger()}>
+        <div className="p-4 text-3xl " onClick={() => props.handleBurger()}>
           <FontAwesomeIcon icon={faBars} />
         </div>
       ) : (
