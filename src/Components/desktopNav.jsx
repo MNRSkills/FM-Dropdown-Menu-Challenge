@@ -17,14 +17,14 @@ import Planning from "../assets/images/icon-planning.svg";
 
 function DesktopNav(props) {
   return (
-    <nav className="flex justify-around items-center p-6">
+    <nav className="flex justify-around items-center p-6 text-mediumGray">
       <div>
         <img src={Logo} alt="" />
       </div>
       <ul className="flex justify-around items-center">
         <li className=" p-2">
-          <span className="flex items-center justify-center relative">
-            <h1 className="font-bold">Features</h1>{" "}
+          <span className="flex items-center justify-center relative focus:text-almostBlack">
+            <h1 className="font-bold ">Features</h1>{" "}
             {props.feature === false ? (
               <FontAwesomeIcon
                 icon={faChevronDown}
@@ -94,11 +94,11 @@ function DesktopNav(props) {
           ) : null}
         </li>
         <li className="p-4">Career</li>
-        <li className="p-4"> About </li>
+        <li className="p-4 "> About </li>
       </ul>
       <div className="">
-        <button className="mx-6">Login</button>
-        <button className="mx-6 border border-1 border-almostBlack rounded ">
+        <button className="mx-6 ">Login</button>
+        <button className="mx-6 px-6 border border-1 border-almostBlack rounded focus:border-2">
           Register
         </button>
       </div>

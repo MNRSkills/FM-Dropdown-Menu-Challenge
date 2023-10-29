@@ -10,15 +10,15 @@ function Home() {
       <div className=" h-96 bg-hero-mobile bg-cover bg-center md:bg-hero-desktop md:bg-contain bg-no-repeat col-start-2 row-span-3 md:h-4/5">
         {/* image from Hero  */}
       </div>
-      <div className=" md:col-start-1 md:text-left md:h-0 md:row-start-1 md:pt-20">
-        <h1 className="text-6xl font-bold text-center my-10 md:my-0 md:text-7xl md:max-w-lg md:ml-auto md:text-left">
+      <div className=" md:col-start-1 md:text-left md:h-0 md:row-start-1 md:pt-20 md:ml-28">
+        <h1 className="text-4xl font-bold text-center my-10 md:my-0 md:text-7xl md:max-w-lg md:text-left">
           Make Remote Work
         </h1>
-        <p className="max-w-xs text-center mt-6 md:ml-28 md:text-left">
+        <p className="max-w-xs text-center mt-6 m-auto md:ml-0 md:text-left ">
           Get your teamm in sync, no matter your location. Streamline processs,
           create team rituals, and watch productivity soar.
         </p>
-        <button className="bg-almostBlack text-almostWhite p-4 px-8 rounded-lg my-6 ml-20 md:ml-28 md:text-almostWhite">
+        <button className="ml-28 bg-almostBlack text-almostWhite p-4 px-8 rounded-lg my-6 md:text-almostWhite sm:ml-72 md:ml-0">
           Learn More
         </button>
       </div>
