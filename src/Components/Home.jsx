@@ -12,7 +12,7 @@ function Home() {
       </div>
       <div className=" md:col-start-1 md:text-left md:h-0 md:row-start-1 md:pt-20 md:ml-28">
         <h1 className="text-4xl font-bold text-center my-10 md:my-0 md:text-7xl md:max-w-lg md:text-left">
-          Make Remote Work
+          Make remote work
         </h1>
         <p className="max-w-xs text-center mt-6 m-auto md:ml-0 md:text-left ">
           Get your teamm in sync, no matter your location. Streamline processs,
