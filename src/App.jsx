@@ -9,7 +9,7 @@ import DesktopNav from "./Components/desktopNav";
 
 function App() {
   const [count, setCount] = useState(0);
-  const [inner, setInner] = useState(0);
+  const [inner, setInner] = useState(window.innerWidth);
   // const inner = window.innerWidth;
   //state for navbar dropdowns -----//
   const [showBurger, setShowBurger] = useState(false);
