@@ -17,7 +17,10 @@ import Planning from "../assets/images/icon-planning.svg";
 
 function DesktopNav(props) {
   return (
-    <nav className="flex justify-around items-center p-6 text-mediumGray">
+    <nav
+      role="navigation"
+      className="flex justify-around items-center p-6 text-mediumGray"
+    >
       <div>
         <img src={Logo} alt="" />
       </div>

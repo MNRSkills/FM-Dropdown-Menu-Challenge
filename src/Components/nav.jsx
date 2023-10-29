@@ -21,7 +21,10 @@ function Navbar(props) {
   //state for navbar dropdowns coming from App.jsx -----//
 
   return (
-    <nav className="bg-transparent m-0 relative flex justify-between items-center p-2 text-mediumGray">
+    <nav
+      role="navigation"
+      className="bg-transparent m-0 relative flex justify-between items-center p-2 text-mediumGray"
+    >
       <div className="p-4">
         <img src={Logo} alt="Logo" />
       </div>
